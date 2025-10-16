@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - Dev   # branch to watch
+      - main   # branch to watch
 
 jobs:
   build-and-deploy:
